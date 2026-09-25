@@ -17,9 +17,9 @@ def route_link(stops):
 
 DAY1 = [
  dict(id='A', fee='$250 · about five hours', chips=['Mostly sitting down','Ends a few minutes from your hotel','$250 · the day'], name='Asakusa, and the river home', tag='Old temple, river boat, garden',
-  why='You will have been awake since a quarter past four. This course is built so that the moving is done sitting down: a temple in the morning district, then a boat that carries you back down the Sumida and drops you almost at your door. Nothing here needs booking and nothing here is far.',
-  steps=[('13:00','I collect you at the hotel','About 25 minutes by train. You can sleep on it.'),
-         ('13:30','Senso-ji, Asakusa','Tokyo&rsquo;s oldest temple, founded in 628. You come in under a five-metre paper lantern, down a street of stalls selling rice crackers and fans that has been a shopping street for three hundred years. Flat the whole way, benches in the courtyard.'),
+  why='You will have been awake since a quarter past four and had lunch already, at the sushi restaurant in Hibiya. This course is built so that the moving after that is done sitting down: a temple in the morning district, then a boat that carries you back down the Sumida and drops you almost at your door. Nothing here needs booking and nothing here is far.',
+  steps=[('13:15','After sushi in Hibiya','Lunch finishes a few minutes from the hotel. About 25 minutes by train from there to Asakusa. You can sleep on it.'),
+         ('13:45','Senso-ji, Asakusa','Tokyo&rsquo;s oldest temple, founded in 628. You come in under a five-metre paper lantern, down a street of stalls selling rice crackers and fans that has been a shopping street for three hundred years. Flat the whole way, benches in the courtyard.'),
          ('15:00','Something sweet on Nakamise','Melon bread straight out of the oven, or a bag of hot senbei. We eat as we walk back to the pier.'),
          ('15:40','The boat down the Sumida','Forty minutes on the water. Twelve bridges, each one a different colour, the Skytree behind you and the city sliding past. You are sitting the whole way and there is a toilet on board.'),
          ('16:30','Hama-rikyu Gardens','The boat lands inside a 400-year-old shogun&rsquo;s garden with saltwater ponds. Flat gravel paths, benches all the way round, the skyline standing over the pines.'),
@@ -35,7 +35,7 @@ DAY1 = [
   links=[('Senso-ji (official)','https://www.senso-ji.jp/english/'),('Tokyo Cruise water bus','https://www.suijobus.co.jp/en/'),('Hama-rikyu Gardens','https://www.tokyo-park.or.jp/teien/en/hama-rikyu/')]),
  dict(id='B', fee='$250 · about four hours', chips=['Indoors and cool','The least walking of the three','$250 · the day'], name='teamLab, and almost no walking', tag='Dark rooms, water, light',
   why='If the market has finished you off, this is the course that asks least of your legs. It is one building, indoors, dark and cool, and you are back at the hotel before dinner. It is also in Toyosu &mdash; the same direction you will already have travelled that morning, so nothing about the trains is new.',
-  steps=[('13:30','I collect you at the hotel','About 20 minutes. The same line you took at dawn.'),
+  steps=[('13:30','After sushi in Hibiya','About 20 minutes by train to Toyosu, the same line you took at dawn.'),
          ('14:00','teamLab Planets, Toyosu','You take your shoes off at the door and walk through the work barefoot. One room is ankle-deep warm water with projected koi that scatter when you move; another is a mirrored hall of hanging lights; another is a floor of orchids overhead. It is about an hour and a half at a slow pace.'),
          ('15:45','Coffee and a sit down','There is a garden and a tea room in the same building.'),
          ('16:30','Toyosu Senkyaku Banrai','Ten minutes on foot. A wooden market-town building beside the fish market with food stalls on two floors and a rooftop footbath looking over the bay. Free, and you can sit with your feet in hot water and do nothing.'),
@@ -49,9 +49,9 @@ DAY1 = [
   mind='Tickets are timed and sell out, so I book the slot as soon as you choose this. You walk barefoot and one room is shin-deep in water &mdash; wear something that rolls up, and skip it if either of you is unsteady on wet floors.',
   links=[('teamLab Planets TOKYO (official)','https://www.teamlab.art/e/planets/'),('Toyosu Senkyaku Banrai','https://toyosu-senkyakubanrai.jp/en/')]),
  dict(id='C', fee='$250 · about five hours', chips=['The most walking of the three','Classic Tokyo','$250 · the day'], name='Meiji shrine and the young side of Tokyo', tag='Forest shrine, Harajuku, Shibuya',
-  why='The version for the two of you who wake up at noon feeling fine. A forest shrine in the middle of the city, then the loudest teenage street in Japan ten minutes away, then the crossing everybody has seen on television. It is the most walking of the three courses and the most Tokyo.',
-  steps=[('13:00','I collect you at the hotel','About 20 minutes by train to Harajuku.'),
-         ('13:30','Meiji Jingu','A wide gravel path through a forest of a hundred thousand trees, every one donated and planted by hand in 1920. Benches the whole way. On a weekday afternoon it is quiet enough to hear the gravel.'),
+  why='The version for the two of you who wake up feeling fine. A forest shrine in the middle of the city, then the loudest teenage street in Japan ten minutes away, then the crossing everybody has seen on television. It is the most walking of the three courses and the most Tokyo.',
+  steps=[('13:15','After sushi in Hibiya','About 20 minutes by train from Hibiya to Harajuku.'),
+         ('13:45','Meiji Jingu','A wide gravel path through a forest of a hundred thousand trees, every one donated and planted by hand in 1920. Benches the whole way. On a weekday afternoon it is quiet enough to hear the gravel.'),
          ('14:45','Takeshita Street','Ten minutes and a complete change of world: three hundred metres of teenage fashion, crepe stands and rainbow cotton candy. We walk it once, which is enough.'),
          ('15:30','Omotesando','The wide tree-lined avenue below it, calmer, with the architecture worth looking up at. Coffee sitting down.'),
          ('16:45','Shibuya','The crossing from above first, through the window of the station building, then down into it. We stop the moment you have had enough.'),
@@ -62,10 +62,59 @@ DAY1 = [
         ('Afuri','Harajuku &middot; yuzu ramen','A clear chicken broth with citrus peel in it &mdash; lighter than most ramen and easier on a tired stomach. Counter and table seats, about ¥1,200.','AFURI Harajuku'),
         ('Shibuya izakaya','Shibuya &middot; small plates','If you last until early evening: grilled skewers, cold beer, everything ¥400&ndash;800 a plate. I order, you point.','Shibuya izakaya')],
   good='Covers the three images of Tokyo most people arrive with, and gets them done in one afternoon.',
-  mind='This is roughly six thousand steps more than course A. After a 4:15 start and with DisneySea the next day, be honest with yourselves about whether you want it.',
+  mind='This is roughly six thousand steps more than course A. After a 4:15 start, be honest with yourselves about whether you want it.',
   links=[('Meiji Jingu (official)','https://www.meijijingu.or.jp/en/'),('Shibuya Sky','https://www.shibuya-scramble-square.com/sky/en/')]),
 ]
-DAY2 = []
+DAY2 = [
+ dict(id='D', fee='$250 · about four hours', chips=['Mostly indoors','Benches throughout, wheelchair loan free','$250 · the day'], name='Ueno, the museum and the pond', tag='National museum, kaiseki lunch, lotus pond',
+  why='Tuesday is entirely your call on timing, so this course is written for a late-morning start with no auction behind it. One museum building, a sit-down lunch, and a pond to finish &mdash; indoors-heavy, with benches in nearly every room and a free wheelchair on loan at the entrance if you want one.',
+  steps=[('10:00','Start from the hotel, whenever you like','About 25 minutes by train to Ueno. This time is yours to move.'),
+         ('10:30','Tokyo National Museum, Honkan','Just the main building &mdash; the Honkan &mdash; not the whole museum complex, which would be a full day on its own. Japanese sculpture, swords and screens in order from ancient to Edo. Benches in most rooms, elevators between floors, and a wheelchair free to borrow at the entrance if you want to save your legs.'),
+         ('12:15','Lunch at Innsyoutei, inside the park','A kaiseki restaurant since 1875, built like an old Japanese house with huge windows onto the trees. Tempura and vegetable-forward set lunches, seated, no rush.'),
+         ('13:45','Shinobazu Pond','A lotus pond a few minutes&rsquo; walk from the restaurant, with a small island shrine and rowboats for hire. We just sit by the water; the boats are there if you want them.'),
+         ('14:30','Back at the hotel','About 25 minutes by train.')],
+  stops=['The Blossom Hibiya Tokyo','Tokyo National Museum','Shinobazu Pond Ueno','The Blossom Hibiya Tokyo'],
+  moves='Hotel &rarr; Ueno about 25 min by train. Museum &rarr; Innsyoutei 5 min on foot inside the park. Restaurant &rarr; Shinobazu Pond about 10 min on foot. Ueno &rarr; hotel about 25 min.',
+  food=[('Innsyoutei','Ueno Park &middot; kaiseki and tempura','A seated set lunch in a 150-year-old restaurant inside the park, big windows onto the trees. About ¥3,000&ndash;6,000 a head.','Innsyoutei Ueno Park'),
+        ('Wagashi at the park','Ueno &middot; a sweet to go with tea','Small seasonal sweets shaped like the month, sold by the piece near the museum gates.','wagashi shop Ueno Park'),
+        ('Matcha and something sweet','Ueno Park &middot; a sit-down break','A bench by the pond and a shaved-ice or matcha stand nearby if the afternoon is warm.','Shinobazu Pond cafe')],
+  good='The least walking of the three Tuesday courses and the most seating. A good answer if Monday left you tired.',
+  mind='The Honkan is open Tuesday to Sunday and closed Mondays, so this course only works on a day like this one. I will confirm the exact gallery layout closer to the date, since museums rotate what is on display.',
+  links=[('Tokyo National Museum (official)','https://www.tnm.jp/?lang=en'),('Ueno Park (Go Tokyo)','https://www.gotokyo.org/en/spot/482/index.html')]),
+ dict(id='E', fee='$250 · about four hours', chips=['The least walking of the six','Closest to your hotel','$250 · the day'], name='The East Gardens, and Marunouchi', tag='Edo castle grounds, brick Tokyo, coffee',
+  why='This is the one that barely leaves the neighbourhood. The Imperial Palace East Gardens are a ten-minute walk from your hotel, free to enter, and closed only on Mondays and Fridays &mdash; Tuesday is a normal open day. After that, a coffee in a restored 1894 brick building and a stop at Tokyo Station on the way back, all still within about fifteen minutes of your door.',
+  steps=[('10:00','Walk to the East Gardens','About 10 minutes on foot from the hotel to the Otemon gate.'),
+         ('10:15','Otemon and the castle grounds','The main gate of Edo Castle, and inside it the grounds where the shogun&rsquo;s government once stood &mdash; now lawns, stone walls and a guardhouse. Flat paths throughout.'),
+         ('11:00','The keep foundation','The stone base of what was once Japan&rsquo;s tallest castle keep, burned down in 1657 and never rebuilt. You can climb onto the top of it &mdash; a short flight of stone steps &mdash; for a view over the whole garden and a bench to rest on.'),
+         ('11:45','Coffee, Marunouchi','A 10&ndash;15 minute walk to Café 1894, inside the Mitsubishi Ichigokan Museum &mdash; a restored 1894 red-brick bank building with a two-storey glass-roofed hall.'),
+         ('13:00','Tokyo Station, Ichibangai','A short walk to the underground arcade beneath the station &mdash; a food hall and souvenir street if you want to pick up gifts before you leave the area.'),
+         ('13:45','Back at the hotel','About 15 minutes on foot, or a short taxi.')],
+  stops=['The Blossom Hibiya Tokyo','Otemon Imperial Palace East Gardens','Mitsubishi Ichigokan Museum','Tokyo Station Ichibangai','The Blossom Hibiya Tokyo'],
+  moves='Hotel &rarr; Otemon about 10 min on foot. Garden &rarr; Café 1894 about 10&ndash;15 min on foot. Café &rarr; Tokyo Station about 5 min on foot. Station &rarr; hotel about 15 min on foot or a short taxi.',
+  food=[('Café 1894','Marunouchi &middot; coffee in a restored bank hall','Lunch 11:00&ndash;14:30, café menu 14:30&ndash;17:00. Coffee, sandwiches and cake under a two-storey glass roof.','Cafe 1894 Marunouchi'),
+        ('Tokyo Station Ichibangai','Underground &middot; a food hall and souvenirs','Sweets, bento and regional snacks from all over Japan in one arcade, easy to carry back to the hotel.','Tokyo Station Ichibangai'),
+        ('A bench in Ninomaru Garden','East Gardens &middot; a quiet rest','If you brought anything to eat, this is the spot &mdash; a pond garden with benches, a few minutes from Otemon.','Ninomaru Garden Imperial Palace')],
+  good='The shortest distance from your hotel of any course on either day, and free to enter. Good if you would rather keep the day small.',
+  mind='Closed Mondays and Fridays &mdash; Tuesday the 6th is a normal open day, and it is not a national holiday, so no schedule shift applies. Entry is free and needs no booking.',
+  links=[('Imperial Palace East Gardens (Imperial Household Agency)','https://www.kunaicho.go.jp/en/visit/event/higashigyoen/'),('Mitsubishi Ichigokan Museum (official)','https://mimt.jp/english/')]),
+ dict(id='F', fee='$250 · about five and a half hours', chips=['Cooking and shopping','Something to take home','$250 · the day'], name='Kappabashi, and Ginza for gifts', tag='Kitchen street, food samples, Ginza shopping',
+  why="For the two of you who like a kitchen and a gift shop more than a shrine. Kappabashi is Tokyo's restaurant-supply street &mdash; knives, tableware, and the shops that make the plastic food models you have seen in every restaurant window. Then a soba lunch, and a taxi to Ginza for stationery, a department-store food hall, and whatever else catches your eye, ending a short ride from your hotel.",
+  steps=[('10:00','Start from the hotel','About 20 minutes by train or taxi to Kappabashi, in Asakusa.'),
+         ('10:30','Kappabashi Kitchen Street','A few hundred metres of restaurant-supply shops: knives that can be engraved with your name while you wait, lacquerware, and the original workshops behind Japan&rsquo;s plastic food displays. Most shops are open Tuesdays &mdash; it is Sundays that are quiet here.'),
+         ('11:15','Make your own food sample','At Ganso Shokuhin Sample-ya, the shop that popularised the craft in 1932. A booked 40-minute session making a piece of wax or plastic tempura or lettuce, which you keep. I book the slot in advance.'),
+         ('12:15','Lunch, Namiki Yabusoba','A soba restaurant near Kaminarimon since 1913, a few minutes&rsquo; walk from Kappabashi. Seated, quick, and open Tuesdays.'),
+         ('13:30','Taxi to Ginza','About 25 minutes by taxi across the city.'),
+         ('14:00','Ginza','Itoya&rsquo;s twelve floors of stationery, the food hall in the basement of Mitsukoshi, and Akomeya for rice, tea and packaged gifts &mdash; as much or as little of it as you want.'),
+         ('16:00','Back at the hotel','Ginza is next to Hibiya &mdash; a short walk, or a five-minute taxi.')],
+  stops=['The Blossom Hibiya Tokyo','Kappabashi Dougu Street','Namiki Yabusoba Asakusa','Ginza Itoya','The Blossom Hibiya Tokyo'],
+  moves='Hotel &rarr; Kappabashi about 20 min. On foot around Kappabashi. Kappabashi &rarr; Ginza about 25 min by taxi. On foot around Ginza. Ginza &rarr; hotel about 10 min on foot or a short taxi.',
+  food=[('Namiki Yabusoba','Asakusa &middot; soba','Buckwheat noodles in a dark dashi broth, served cold with a dipping sauce or hot. Seated, since 1913, about ¥1,000&ndash;2,000.','Namiki Yabusoba Asakusa'),
+        ('Your own food sample','Ganso Shokuhin Sample-ya &middot; made by you','A wax or plastic tempura piece or lettuce leaf you make yourself in the 40-minute workshop &mdash; not edible, but yours to keep. About ¥3,300 per person.','Ganso Shokuhin Sample-ya'),
+        ('Mitsukoshi Ginza depachika','Ginza &middot; the basement food hall','Wagashi, tea, pickles and bento from all over Japan, boxed to travel &mdash; the easiest place in Tokyo to buy food gifts.','Mitsukoshi Ginza depachika')],
+  good='The only course with something you make yourself and something you can wrap up and take home. Good for a day built around gifts.',
+  mind='Kappabashi shops mostly close Sundays, not Tuesdays, so the 6th is a normal day there. The food-sample workshop needs a reservation &mdash; I book it as soon as you choose this course, and will confirm the exact Tuesday time slot when I do.',
+  links=[('Kappabashi Dougu Street (official)','https://www.kappabashi.or.jp/en/'),('Ganso Shokuhin Sample-ya (official)','https://www.ganso-sample.com/en/'),('Ginza (official)','https://www.ginza.jp/en')]),
+]
 
 COURSES = DAY1 + DAY2
 
@@ -86,11 +135,12 @@ def detail(c):
                  f'<i>Open in Google Maps ↗</i></span></a>'
                  for (n, a, d, q), im in zip(c['food'], PH[c['id']]['food']))
     ln = ' '.join(f'<a href="{u}" target="_blank" rel="noopener">{html.escape(t)} ↗</a>' for t, u in c['links'])
-    sub = f'Oct 5 afternoon: we choose course {c["id"]} ({c["name"]})'
+    day_label = 'Oct 5 afternoon' if c in DAY1 else 'Oct 6'
+    sub = f'{day_label}: we choose course {c["id"]} ({c["name"]})'
     return f'''<section class="detail" id="detail-{c['id']}" hidden><div class="dwrap"><div class="dtop"></div>
 <div class="dhead"><div><p class="kicker">Course {c['id']} · {html.escape(c['tag'])} · {c['fee']}</p><h2>{html.escape(c['name'])}</h2></div>
 <button class="dclose" type="button" aria-label="Close">Close ✕</button></div>
-<p class="why">{html.escape(c['why'])}</p>
+<p class="why">{c['why']}</p>
 <p class="moves"><b>Guide fee {c['fee']}.</b> Entry tickets, trains, taxis and meals are settled on the day as they come.</p>
 <div class="photos">{ph}</div>
 <div class="dgrid">
@@ -99,7 +149,7 @@ def detail(c):
 <p class="moves">{c['moves']} <a href="{route_link(c['stops'])}" target="_blank" rel="noopener">Open the route in Google Maps ↗</a></p></div>
 </div>
 <h3>Where we eat</h3><div class="eats">{fd}</div>
-<div class="notes"><p><b>Good for</b> {html.escape(c['good'])}</p><p><b>Keep in mind</b> {html.escape(c['mind'])}</p></div>
+<div class="notes"><p><b>Good for</b> {c['good']}</p><p><b>Keep in mind</b> {c['mind']}</p></div>
 <p class="links">{ln}</p>
 <a class="choose" href="mailto:icchan417@gmail.com?subject={html.escape(sub)}">Choose course {c['id']}</a>
 </div></section>'''
@@ -135,7 +185,7 @@ HERO_JS = """
 
 credits = '; '.join(html.escape(x['title'].replace('File:','')) + ' (' + x['lic'] + ')' for v in PH.values() for x in [v['card']] + v['detail'] + v['food'])
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Monday October 5: the afternoon</title><meta name="robots" content="noindex">
+<title>Tokyo: October 5 and 6</title><meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{{--bg:#fffdf6;--card:#fff;--ink:#111;--mute:#767065;--line:#eae4d6;--acc:#1a5c3a;--r:10px}}
@@ -242,25 +292,31 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 }}
 </style></head><body>
 <header class="hero">
-<div class="hpic"><div class="slides">{''.join(f'<img src="{PH[c["id"]]["card"]["thumb"]}" alt="{html.escape(c["name"])}" data-course="{c["id"]}" data-name="{html.escape(c["name"])}">' for c in DAY1)}</div>
+<div class="hpic"><div class="slides">{''.join(f'<img src="{PH[c["id"]]["card"]["thumb"]}" alt="{html.escape(c["name"])}" data-course="{c["id"]}" data-name="{html.escape(c["name"])}">' for c in COURSES)}</div>
 <div class="wrap hcap">
-<p class="kicker">Tokyo · Monday, October 5</p>
-<h1>The afternoon of <span class="nb">October 5.</span></h1>
-<div class="snav"><button class="slabel" type="button"></button><div class="dots">{''.join(f'<button type="button" aria-label="Show course {c["id"]}"></button>' for c in DAY1)}</div></div>
+<p class="kicker">Tokyo · October 5 and 6</p>
+<h1>Tokyo, <span class="nb">October 5 and 6.</span></h1>
+<div class="snav"><button class="slabel" type="button"></button><div class="dots">{''.join(f'<button type="button" aria-label="Show course {c["id"]}"></button>' for c in COURSES)}</div></div>
 </div></div>
 <div class="wrap hbody">
-<p>Your day starts at 5:30 in the morning at the tuna auction, so the morning is already spoken for. This is the other half of it: you sleep from about half past eight, and we start again at one. Three ways to spend that afternoon, ordered from the one that asks least of you to the one that asks most.</p>
-<ul class="facts"><li><b>Guide</b> Yuuki</li><li><b>Afternoon</b> about 13:00 to 18:00</li><li><b>Start and end</b> your hotel</li><li><b>Next day</b> DisneySea</li></ul>
+<p>Monday the 5th starts at 5:30 in the morning at the tuna auction, so the morning is already spoken for. You sleep from about half past eight, come back for sushi in Hibiya at noon, and the afternoon below starts after that. Tuesday the 6th has nothing fixed before it &mdash; the start time is yours. Two menus, one for each day; pick a course for each, or say you&rsquo;d rather rest.</p>
+<ul class="facts"><li><b>Guide</b> Yuuki</li><li><b>Oct 5</b> about 13:15 to 18:00</li><li><b>Oct 6</b> start time is your choice</li><li><b>Fee</b> $250 &middot; ¥40,000 a day</li></ul>
 </div>
 </header>
 <div class="wrap">
-<div class="sechead"><span class="n">1</span><div><b>Pick one</b> <span>You will have been awake since 4:15 and DisneySea is the following day. Every course below ends by six so the evening stays empty.</span></div></div>
+<div class="sechead"><span class="n">1</span><div><b>Monday, October 5 &mdash; the afternoon</b> <span>Pick one. You will have been awake since 4:15, so every course below ends by six and the evening stays empty.</span></div></div>
 <div class="menu">{''.join(menu(c) for c in DAY1)}</div>
 {''.join(detail(c) for c in DAY1)}
 
 
 
-<div class="sechead"><span class="n">2</span><div><b>What it costs</b> <span>The same basis as the days we already discussed.</span></div></div>
+<div class="sechead"><span class="n">2</span><div><b>Tuesday, October 6</b> <span>Pick one. Nothing is fixed before this, so start whenever suits you &mdash; the times below are a suggestion.</span></div></div>
+<div class="menu">{''.join(menu(c) for c in DAY2)}</div>
+{''.join(detail(c) for c in DAY2)}
+
+
+
+<div class="sechead"><span class="n">3</span><div><b>What it costs</b> <span>The same basis both days.</span></div></div>
 <div class="arrival">
 <div><p style="font-size:22px;line-height:1.3;margin:0 0 10px"><b>US$250 a day &mdash; or ¥40,000 in cash &mdash; whichever course you pick.</b></p>
 <p>Four hours or five, it is the same figure &mdash; so pick the one you actually want rather than the one that looks like less work.</p>
@@ -274,24 +330,23 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 <script>
 (function(){{
  var cards=[].slice.call(document.querySelectorAll('.mcard'));
- function close(id,now){{var d=document.getElementById('detail-'+id);d.classList.remove('open');document.querySelector('.menu').classList.remove('picked');if(now){{d.hidden=true;return}}setTimeout(function(){{if(!d.classList.contains('open'))d.hidden=true}},320);
-   document.querySelector('.mcard[data-course="'+id+'"]').setAttribute('aria-expanded','false')}}
+ function cardFor(id){{return document.querySelector('.mcard[data-course="'+id+'"]')}}
+ function close(id,now){{var d=document.getElementById('detail-'+id),b=cardFor(id);d.classList.remove('open');b.closest('.menu').classList.remove('picked');b.setAttribute('aria-expanded','false');if(now){{d.hidden=true;return}}setTimeout(function(){{if(!d.classList.contains('open'))d.hidden=true}},320)}}
  function land(id){{var d=document.getElementById('detail-'+id),done=false;function go(){{if(done)return;done=true;d.scrollIntoView({{behavior:'smooth',block:'start'}})}}
    d.addEventListener('transitionend',function f(e){{if(e.target===d){{d.removeEventListener('transitionend',f);go()}}}});setTimeout(go,420)}}
- var menuEl=document.querySelector('.menu');
- function point(id){{var b=document.querySelector('.mcard[data-course="'+id+'"]'),d=document.getElementById('detail-'+id);
+ function point(id){{var b=cardFor(id),d=document.getElementById('detail-'+id);
    var r=b.getBoundingClientRect(),w=d.getBoundingClientRect();
    d.style.setProperty('--arrow',(r.left+r.width/2-w.left)+'px')}}
- function open_(id){{var d=document.getElementById('detail-'+id);d.hidden=false;menuEl.classList.add('picked');
+ function open_(id){{var d=document.getElementById('detail-'+id),b=cardFor(id);d.hidden=false;b.closest('.menu').classList.add('picked');
    requestAnimationFrame(function(){{d.classList.add('open');point(id)}});
-   document.querySelector('.mcard[data-course="'+id+'"]').setAttribute('aria-expanded','true')}}
+   b.setAttribute('aria-expanded','true')}}
  window.addEventListener('resize',function(){{var o=document.querySelector('.mcard[aria-expanded=true]');if(o)point(o.dataset.course)}});
- var want=(location.hash.match(/^#detail-([ABC])$/)||[])[1]||(location.search.match(/[?&]open=([ABC])/)||[])[1];
+ var want=(location.hash.match(/^#detail-([A-F])$/)||[])[1]||(location.search.match(/[?&]open=([A-F])/)||[])[1];
  if(want){{open_(want);setTimeout(function(){{document.getElementById('detail-'+want).scrollIntoView()}},80)}}
  cards.forEach(function(b){{
   b.addEventListener('click',function(){{
-   var id=b.dataset.course,was=b.getAttribute('aria-expanded')==='true';
-   cards.forEach(function(o){{if(o.getAttribute('aria-expanded')==='true')close(o.dataset.course,true)}});
+   var id=b.dataset.course,was=b.getAttribute('aria-expanded')==='true',myMenu=b.closest('.menu');
+   cards.forEach(function(o){{if(o.closest('.menu')===myMenu&&o.getAttribute('aria-expanded')==='true')close(o.dataset.course,true)}});
    if(was)return;
    open_(id);history.replaceState(null,'','#detail-'+id);
    land(id);
@@ -299,7 +354,7 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
  }});
  document.querySelectorAll('.dclose').forEach(function(x){{
   x.addEventListener('click',function(){{var d=x.closest('.detail'),id=d.id.replace('detail-','');close(id);
-   document.querySelector('.mcard[data-course="'+id+'"]').scrollIntoView({{behavior:'smooth',block:'center'}})}});
+   cardFor(id).scrollIntoView({{behavior:'smooth',block:'center'}})}});
  }});
 }})();
 {HERO_JS}

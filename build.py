@@ -145,7 +145,7 @@ LUNCH = [
  dict(n=4, name='Sumiyaki Unafuji', where='Hibiya OKUROJI &middot; charcoal-grilled eel', walk='About 3 min on foot',
   img='https://www.jrtk.jp/hibiya-okuroji/shop/obj/img/000/055/221122-1331_01n.jpg',
   alt='Hitsumabushi, grilled eel over rice, at Unafuji',
-  body='An eel restaurant from Nagoya, listed in the Michelin Bib Gourmand, in the same arches. The rooms are calm and plain, with four semi-private rooms. Hitsumabushi is the dish: grilled eel over rice that you eat three ways, the last one with broth poured over.',
+  body='An eel restaurant from Nagoya, listed in the Michelin Bib Gourmand, in the same arches. It is calmer than the rest of the arches, with four semi-private rooms. Hitsumabushi is the dish: grilled eel over rice that you eat three ways, the last one with broth poured over.',
   size='Smallest: a bowl with 5/6 of an eel, clam soup and pickles, about ¥5,900. A half-size eel set with small side dishes is about ¥7,300.',
   hours='Open 11:00&ndash;22:00 without a break.', book='Booking online or by phone. I book it.',
   q='Sumiyaki Unafuji Hibiya OKUROJI', link=('Menu in English (PDF)','https://sumiyaki-unafuji.com/wp-content/uploads/2025/09/menu_global-2.pdf')),
@@ -424,3 +424,26 @@ open('preview.html', 'w').write(page.replace(
     '{DEVBAR}',
     '<script>window.DEVBAR_FORCE=1</script><script src="devbar.js?v=3"></script>'))
 print('written', len(page), '-> index.html + preview.html')
+
+# 10/5の昼だけの単体ページ（ユウキ9/25「5日のご飯は単体で」）。CSSと店データは本ページと共用。
+style = page[page.index('<style>'):page.index('</style>') + 8]
+lunch_page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lunch in Hibiya on October 5</title><meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+{style}<style>.lhead{{padding:44px 0 8px}} .lhead p{{font-size:18px;color:var(--mute);margin:0;max-width:680px}}
+@media(max-width:560px){{.lhead{{padding:30px 0 4px}} .lhead p{{font-size:16px}}}}</style></head><body>
+<header class="wrap lhead"><p class="kicker">Tokyo &middot; Monday, October 5 &middot; 12:00</p>
+<h1>Lunch in Hibiya, <span class="nb">a smaller one.</span></h1>
+<p>You said the sushi on the 20th was too much food. Here are five quieter places near your hotel where you decide how much arrives. All five are open for lunch on Monday the 5th and take bookings. Pick one and I will book it for 12:00.</p>
+<ul class="facts"><li><b>Date</b> Monday, October 5</li><li><b>Time</b> 12:00</li><li><b>Distance</b> 3&ndash;10 minutes on foot from your hotel</li></ul>
+</header>
+<div class="wrap">
+<div class="sechead"><div><b>Five places, pick one</b> <span>The smallest option is written on each card. Prices are per person and were checked on each restaurant&rsquo;s own page on September 25.</span></div></div>
+<p class="lnote">Numbers 2 and 4 are in the same brick arches under the train line as the sushi place on the 20th; the other three are a few minutes away on foot.</p>
+<div class="lunch">{''.join(lunch_card(c) for c in LUNCH)}</div>
+</div>
+<footer class="wrap"><p>Reply to Yuuki with the number you like. Menus and prices can change a little before the day; I confirm them when I book.</p>
+<p><a href="./" style="color:inherit">The afternoon courses for October 5 and 6 are on this page.</a></p></footer>
+</body></html>'''
+open('lunch.html', 'w').write(lunch_page)
+print('written', len(lunch_page), '-> lunch.html')

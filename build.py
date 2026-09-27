@@ -435,7 +435,7 @@ lunch_page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><met
 @media(max-width:560px){{.lhead{{padding:30px 0 4px}} .lhead p{{font-size:16px}}}}</style></head><body>
 <header class="wrap lhead"><p class="kicker">Tokyo &middot; Monday, October 5 &middot; 12:00</p>
 <h1>Lunch on the 5th, <span class="nb">a smaller one.</span></h1>
-<p>You said the sushi on the 20th was too much food. Here are five quieter places near your hotel where you decide how much arrives. All five are open for lunch on Monday the 5th and take bookings. Pick one and I will book it for 12:00.</p>
+<p>You said the sushi on the 20th was too much food. Here are six quieter places: a basement, an upper floor, a back lane, a wooden house. Each lunch is a short course, and at each one you can stop where you like. All six are open for lunch on Monday the 5th and take bookings. Five are in or next to Ginza, one is in Kagurazaka. Pick one and I will book it for 12:00.</p>
 <ul class="facts"><li><b>Date</b> Monday, October 5</li><li><b>Time</b> 12:00</li><li><b>Distance</b> 3&ndash;10 minutes on foot from your hotel</li></ul>
 </header>
 <div class="wrap">

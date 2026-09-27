@@ -154,7 +154,7 @@ DAY2 = [
   links=[('Kappabashi Dougu Street (official)','https://www.kappabashi.or.jp/en/'),('Ganso Shokuhin Sample-ya (official)','https://www.ganso-sample.com/en/'),('Senso-ji (official)','https://www.senso-ji.jp/english/')]),
 ]
 
-COURSES = DAY1 + DAY2
+COURSES = DAY1  # DAY2 (Oct 6 D/E/F) hidden until Rick gives a start time
 
 # 10/5の昼。Rick 9/25「寿司でいいが25貫よりずっと少なく」→ ユウキ 9/27「隠れ家的・控えめな量・高級感・予約可。日比谷縛りは外す」。
 # 営業・価格は 2026-09-27 に公式/一休/ぐるなびで確認。脱落: とうふ屋うかい芝(2026-03-31閉店)・赤坂菊乃井/鮨かねさか/銀座とよだ(月曜休)・六雁(昼営業なし)・うを徳(昼は4名〜)・野田岩(月曜に不定休)。
@@ -389,13 +389,13 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 <header class="hero">
 <div class="hpic"><div class="slides">{''.join(f'<img src="{PH[c["id"]]["card"]["thumb"]}" alt="{html.escape(c["name"])}" data-course="{c["id"]}" data-name="{html.escape(c["name"])}">' for c in COURSES)}</div>
 <div class="wrap hcap">
-<p class="kicker">Tokyo · October 5 and 6</p>
-<h1>Tokyo, <span class="nb">October 5 and 6.</span></h1>
+<p class="kicker">Tokyo · October 5</p>
+<h1>Tokyo, <span class="nb">Monday, October 5.</span></h1>
 <div class="snav"><button class="slabel" type="button"></button><div class="dots">{''.join(f'<button type="button" aria-label="Show course {c["id"]}"></button>' for c in COURSES)}</div></div>
 </div></div>
 <div class="wrap hbody">
-<p>Monday the 5th starts at 5:30 in the morning at the tuna auction, so the morning is already spoken for. You sleep from about half past eight, come back for lunch at noon, and the afternoon starts after that. Tuesday the 6th has nothing fixed before it &mdash; the start time is yours. Three choices below: a place for lunch on the 5th, the afternoon that goes with it, and a course for the 6th, or say you&rsquo;d rather rest.</p>
-<ul class="facts"><li><b>Guide</b> Yuuki</li><li><b>Oct 5</b> lunch at 12:00, then about 13:30 to 17:00</li><li><b>Oct 6</b> start time is your choice</li><li><b>Fee</b> $250 &middot; ¥40,000 a day</li></ul>
+<p>Monday the 5th starts at 5:30 in the morning at the tuna auction, so the morning is already spoken for. You sleep from about half past eight, come back for lunch at noon, and the afternoon starts after that. Two choices below: a place for lunch, and the afternoon that goes with it &mdash; or say you&rsquo;d rather rest. Tuesday the 6th comes after that, once I know what time you want to start.</p>
+<ul class="facts"><li><b>Guide</b> Yuuki</li><li><b>Oct 5</b> lunch at 12:00, then about 13:30 to 17:00</li><li><b>Oct 6</b> planned after you tell me a start time</li><li><b>Fee</b> $250 &middot; ¥40,000 a day</li></ul>
 </div>
 </header>
 <div class="wrap">
@@ -408,13 +408,11 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 
 
 
-<div class="sechead"><span class="n">3</span><div><b>Tuesday, October 6</b> <span>Pick one. Nothing is fixed before this, so start whenever suits you &mdash; the times below are a suggestion.</span></div></div>
-<div class="menu">{''.join(menu(c) for c in DAY2)}</div>
-{''.join(detail(c) for c in DAY2)}
+<div class="sechead"><span class="n">3</span><div><b>Tuesday, October 6</b> <span>Nothing is fixed before this day, so it is built around you. Two things I need from you: what time you would like to start, and whether lunch should be part of it. I will send the courses for the 6th once I have those.</span></div></div>
 
 
 
-<div class="sechead"><span class="n">4</span><div><b>What it costs</b> <span>The same basis both days.</span></div></div>
+<div class="sechead"><span class="n">4</span><div><b>What it costs</b> <span>The same basis on the 6th too.</span></div></div>
 <div class="arrival">
 <div><p style="font-size:22px;line-height:1.3;margin:0 0 10px"><b>US$250 a day &mdash; or ¥40,000 in cash &mdash; whichever course you pick.</b></p>
 <p>Four hours or five, it is the same figure &mdash; so pick the one you actually want rather than the one that looks like less work.</p>
@@ -423,7 +421,7 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 <p>If you wake up on the 5th, do the auction, sleep, and then decide that the afternoon is more than you want, say so and we cancel it. Nothing is owed. That is a good answer and I would rather have it than watch you push through.</p></div>
 </div>
 </div>
-<footer class="wrap"><p>Reply to Yuuki with a lunch number and a letter for each day &mdash; or with &ldquo;none, we will rest&rdquo;, which is a real answer and not a disappointing one. Times are approximate and can move earlier or later on the day.</p>
+<footer class="wrap"><p>Reply to Yuuki with a lunch number and a letter for the 5th, plus a start time for the 6th &mdash; or with &ldquo;none, we will rest&rdquo;, which is a real answer and not a disappointing one. Times are approximate and can move earlier or later on the day.</p>
 <details class="cred"><summary>Photo credits</summary><p>{credits}, via Wikimedia Commons.</p></details></footer>
 <script>
 (function(){{

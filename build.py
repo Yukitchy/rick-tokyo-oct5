@@ -69,7 +69,7 @@ DAY1_OLD = [
 # 営業は 2026-09-27 に確認: 伊東屋 月10-20 / 三越 10-20 / 木村家 10-20 無休 / GINZA SIX屋上 7-23・中村藤吉 10:30-20:30 / 梅花亭 10-19 水休 / あかぎカフェ 平日10-22 火休 / AKOMEYA in la kagu 月11-20。CANAL CAFEは第1・3月曜休=10/5休なので使わない。
 DAY1 = [
  dict(id='G', fee='$250 · about four hours', chips=['On foot from lunch','Shopping and gifts','Ends 10 min from your hotel'], name='Ginza, on foot from the table', tag='Stationery, a food hall, a rooftop garden, tea',
-  why='This goes with lunch 1, 2, 3, 4 or 6. You stand up from the table and the afternoon is already around you: everything below is inside one neighbourhood, flat, and about two kilometres end to end, with a seat every forty minutes. It is the shopping afternoon &mdash; paper, pens, a food hall, sweets to carry back &mdash; with a garden on a roof in the middle of it. From lunch 4 in Nihonbashi it starts with a ten-minute taxi; from the others you walk.',
+  why='This goes with any of the five lunches. You stand up from the table and the afternoon is already around you: everything below is inside one neighbourhood, flat, and about two kilometres end to end, with a seat every forty minutes. It is the shopping afternoon &mdash; paper, pens, a food hall, sweets to carry back &mdash; with a garden on a roof in the middle of it. From lunch 4 in Nihonbashi it starts with a ten-minute taxi; from the others you walk.',
   steps=[('13:30','Itoya, Ginza 2-chome','Twelve floors of paper and pens in one narrow building, since 1904. Letter sets, washi paper, fountain pens, wrapping &mdash; gifts that pack flat. There is a café on the top floor if you want to sit before you start.'),
          ('14:30','Mitsukoshi, the basement food hall','Five minutes down the main street. Two floors under the department store of wagashi, tea, pickles, rice crackers and bento from every part of Japan, most of it boxed to travel. The easiest place in Tokyo to buy food gifts, and I translate the counters.'),
          ('15:15','Kimuraya, across the crossing','The bakery that invented the sweet-bean bun in 1874, on the corner of the Ginza crossing under the clock tower. A paper bag of five for the hotel room.'),
@@ -84,6 +84,24 @@ DAY1 = [
   good='No trains, no taxis unless you want one, and the day ends within sight of your hotel. The right afternoon for a couple who like shops and a kitchen more than a shrine.',
   mind='Everything here is open on Monday the 5th; nothing needs booking. If at four o&rsquo;clock you would rather have a garden than a bookshop, Hama-rikyu &mdash; a 400-year-old shogun&rsquo;s garden with a tea house on the pond &mdash; is a fifteen-minute walk south, last entry 16:30, ¥300. Say so on the day and we go there instead.',
   links=[('Itoya (official)','https://www.ito-ya.co.jp/'),('Ginza Six (official)','https://ginza6.tokyo/'),('Ginza Mitsukoshi (official)','https://www.mistore.jp/store/ginza.html'),('Hama-rikyu Gardens','https://www.tokyo-park.or.jp/teien/en/hama-rikyu/')]),
+ dict(id='F', fee='$250 · about four hours', chips=['One train from lunch','Kitchen street, made-by-you gifts','Ends with a taxi home'], name='Kappabashi, and the old temple next door', tag='Kitchen street, food samples, Senso-ji',
+  why="This goes with any of the five lunches. Kappabashi is Tokyo's restaurant-supply street &mdash; knives, tableware, and the workshops that make the plastic food models you have seen in every restaurant window. From lunch it is one direct train, no changes. You make a food sample of your own first, walk the street, then Tokyo&rsquo;s oldest temple ten minutes away on foot with a three-hundred-year-old street of stalls in front of it, and a taxi home.",
+  steps=[('13:30','One train from lunch','The Ginza line from Ginza or Nihonbashi station straight to Tawaramachi, about 20 minutes, sitting down. Lunch 1 and 5 are a five-minute walk to Ginza station; lunch 4 is on top of Nihonbashi station.'),
+         ('14:15','Make your own food sample','At Ganso Shokuhin Sample-ya, the shop that popularised the craft in 1932. A booked 40-minute session making a piece of wax tempura or a lettuce leaf, which you keep. I book the Monday slot in advance.'),
+         ('15:00','Kappabashi Kitchen Street','A few hundred metres of restaurant-supply shops: knives that can be engraved with your name while you wait, lacquerware, ceramics by the piece, and the original food-model shops. Most shops are open Mondays &mdash; it is Sundays that are quiet here.'),
+         ('15:45','Senso-ji, on foot','Ten minutes from the street. Tokyo&rsquo;s oldest temple, founded in 628: in under the five-metre paper lantern, along Nakamise &mdash; a street of rice-cracker and fan stalls that has been a shopping street for three hundred years &mdash; to the main hall. Flat, with benches in the courtyard.'),
+         ('16:30','Something sweet on Nakamise','Melon bread out of the oven, or a bag of hot senbei, eaten as we walk back to the gate.'),
+         ('17:00','Taxi to the hotel','About 25 minutes across the city, sitting down.')],
+  stops=['Ginza Station','Ganso Shokuhin Sample-ya','Kappabashi Dougu Street','Sensoji Temple Asakusa','The Blossom Hibiya Tokyo'],
+  moves='Lunch &rarr; Ginza or Nihonbashi station on foot, then the Ginza line to Tawaramachi, about 20 min. Tawaramachi &rarr; Ganso Sample-ya 12 min on foot. On foot along Kappabashi. Kappabashi &rarr; Senso-ji 10 min on foot. Asakusa &rarr; hotel about 25 min by taxi.',
+  food=[('Your own food sample','Ganso Shokuhin Sample-ya &middot; made by you','A wax tempura piece or lettuce leaf you make yourself in the 40-minute workshop &mdash; not edible, but yours to keep. About ¥3,300 per person. Open Monday 10:00&ndash;17:30, no closing day.','Ganso Shokuhin Sample-ya'),
+        ('Nakamise street stalls','Asakusa &middot; snacks as you walk','Melon bread, grilled rice crackers, sweet bean cakes shaped like the temple gate. A few hundred yen each, eaten standing.','Nakamise Dori Asakusa')],
+  good='The afternoon with something you make yourself and something to wrap and take home. Rougher and older than Ginza, with the temple at the end of it.',
+  mind='Kappabashi shops mostly close Sundays, so Monday the 5th is a normal day there. The food-sample workshop needs a reservation &mdash; I book it as soon as you choose this course and confirm the Monday afternoon slot. This one ends with a taxi rather than a walk, and about half an hour later than Ginza.',
+  links=[('Kappabashi Dougu Street (official)','https://www.kappabashi.or.jp/en/'),('Ganso Shokuhin Sample-ya (official)','https://www.ganso-sample.com/en/'),('Senso-ji (official)','https://www.senso-ji.jp/english/')]),
+]
+
+DAY1_HIDDEN = [  # H Kagurazaka: dropped 9/27, Yuuki wants shopping in both afternoons
  dict(id='H', fee='$250 · about four hours', chips=['On foot from lunch','Stone lanes, a shrine, a rice shop','Downhill the whole way'], name='Kagurazaka, the hill after lunch', tag='Old geisha lanes, a glass shrine, sweets and rice',
   why='This goes with lunch 5. Kagurazaka is a hill of stone-paved lanes that was a geisha district a hundred years ago and is still the quietest old quarter in central Tokyo. The restaurant is near the top, so the afternoon is a slow walk down it: a sweet shop, a shrine rebuilt in glass and wood, a rice-and-kitchen shop for gifts, a red temple gate, then the lanes. You finish at the station at the bottom and one train takes you to your hotel.',
   steps=[('13:30','Baikatei, three minutes from lunch','A wagashi shop since 1935 with a counter of seasonal sweets and the shop&rsquo;s own hand-shaped &ldquo;ukishima&rdquo; cakes. A box for the hotel, or one each now.'),
@@ -158,38 +176,41 @@ COURSES = DAY1  # DAY2 (Oct 6 D/E/F) hidden until Rick gives a start time
 
 # 10/5の昼。Rick 9/25「寿司でいいが25貫よりずっと少なく」→ ユウキ 9/27「隠れ家的・控えめな量・高級感・予約可。日比谷縛りは外す」。
 # 営業・価格は 2026-09-27 に公式/一休/ぐるなびで確認。脱落: とうふ屋うかい芝(2026-03-31閉店)・赤坂菊乃井/鮨かねさか/銀座とよだ(月曜休)・六雁(昼営業なし)・うを徳(昼は4名〜)・野田岩(月曜に不定休)。
-LUNCH = [
- dict(n=1, after='G', name='Ginza Sushimasa', where='Higashi-Ginza, behind the Kabuki-za &middot; sushi', walk='About 15 min on foot, 5 by taxi',
-  img='img/lunch/sushimasa.jpg', alt='A plate of nigiri at Ginza Sushimasa',
-  body='Sushi again, but a short one. A basement room on the back side of the Kabuki-za theatre, so the street outside is quiet even at noon. The lunch is a short kaiseki: a few cooked dishes first, then a small round of nigiri, then dessert.',
-  size='Iro course: 5 small dishes and 7 pieces of nigiri, &yen;9,900. Yui course: 8 dishes and 9 pieces, &yen;13,200. If you only want nigiri, the Ajisai lunch is 7 pieces with a small bowl of chirashi, &yen;4,950.',
-  hours='Monday lunch 11:30&ndash;14:30. Closed Wednesdays.', book='Booking online or by phone. I book it.',
-  q='Ginza Sushimasa Kabukiza', links=[('Lunch menu (official)','https://www.ginza-sushimasa.com/lunch/')]),
- dict(n=2, after='G', name='Tempura Kondo', where='Ginza 5-chome, 9th floor &middot; tempura', walk='About 10 min on foot',
-  img='img/lunch/kondo.jpg', alt='Tempura at Kondo',
-  body='Two Michelin stars, on the ninth floor of a narrow building with almost no sign at street level. You sit at the counter and each piece is fried in front of you and put on your plate one at a time. Vegetables are the speciality here, not just seafood.',
-  size='Sumire lunch: 9 pieces (2 prawn, 3 fish, 4 vegetable) with rice, pickles, red miso soup and fruit, &yen;13,200. The next size up is 11 pieces, &yen;16,500. Nothing bigger at lunch.',
-  hours='Monday lunch in two seatings, 12:00 or 13:30. Closed Sundays.', book='Booking by phone or online. I book the 12:00 seating.',
-  q='Tempura Kondo Ginza', links=[('Lunch menu','https://hitosara.com/0006054186/lunch.html'),('Restaurant page','https://restaurant.ikyu.com/107810')]),
- dict(n=3, after='G', name='Ginza Uchiyama', where='Ginza 2-chome, basement &middot; seasonal Japanese', walk='About 20 min on foot, 7 by taxi',
-  img='img/lunch/uchiyama.jpg', alt='The sea-bream rice set at Uchiyama',
-  body='A basement room on a side street at the quiet end of Ginza, booking only, 25 seats with 9 at the counter and two private rooms. The house dish is sea bream over rice with hot tea poured on at the end. The lunch is small plates, one after another, and ends with that.',
-  size='Lunch course: 7 dishes ending with the sea-bream rice, &yen;5,500 with tax and service. An 8-dish version with better ingredients is a little more.',
-  hours='Monday lunch 11:30&ndash;14:30. Closed on public holidays only (the 5th is not one).', book='Booking online. I book it.',
-  q='Ginza Uchiyama', links=[('Lunch course','https://restaurant.ikyu.com/114634/plan11547172'),('Restaurant page','https://restaurant.ikyu.com/114634/')]),
- dict(n=4, after='G', name='Nihonbashi Yukari', where='Nihonbashi, 3 min from Tokyo Station &middot; kappo', walk='About 10 min by taxi',
-  img='img/lunch/yukari.jpg', alt='A seasonal plate at Yukari',
-  body='A family restaurant since 1935, now run by the third generation, Kimio Nonaga, who won the Iron Chef title in 2002. Old-style Tokyo cooking, plainly presented. There are private rooms in the basement with sunken tables, so you can have the room to yourselves.',
-  size='Lunch is a set tray, the Yukari gozen, about &yen;4,000, booked the day before. Courses above that on request. All of it is modest in size.',
-  hours='Monday lunch 11:30&ndash;14:00, last order 13:30. Closed Sundays and holidays.', book='Phone booking. I call and book a private room.',
-  q='Nihonbashi Yukari', links=[('Menu','https://r.gnavi.co.jp/g322600/menu1/'),('Official site','http://nihonbashi-yukari.com/')]),
+LUNCH_HIDDEN = [  # Kurobatei: went with H
  dict(n=5, after='H', name='Kagurazaka Kurobatei', where='Kagurazaka, in the old geisha quarter &middot; seasonal Japanese and udon', walk='About 20 min by taxi',
   img='img/lunch/kurobatei.jpg', alt='The lunch tray at Kurobatei',
   body='The one that is not in Ginza. Kagurazaka is a hill of stone-paved lanes that used to be a geisha district, and this restaurant sits in one of the lanes off the main slope. Five private rooms, 30 seats in all. The meal is a tray of small seasonal things with thin hand-cut udon noodles as the main dish.',
   size='San-no-zen lunch tray: an appetiser plate, sashimi, a seasonal dish, tempura, udon and a sweet, &yen;5,000 with tax and service. One tray each, nothing else arrives.',
   hours='Monday lunch 11:30&ndash;14:30, last order 14:00. Closed Sundays.', book='Booking online. I book a private room.',
   q='Kagurazaka Kurobatei', links=[('Lunch menu','https://r.gnavi.co.jp/4byzp4200000/lunch/'),('Restaurant page','https://restaurant.ikyu.com/101020')]),
- dict(n=6, after='G', name='Chikuyotei, main house', where='Higashi-Ginza, Kobikicho &middot; eel and Japanese', walk='About 15 min on foot, 5 by taxi',
+]
+
+LUNCH = [
+ dict(n=1, after='G or F', name='Ginza Sushimasa', where='Higashi-Ginza, behind the Kabuki-za &middot; sushi', walk='About 15 min on foot, 5 by taxi',
+  img='img/lunch/sushimasa.jpg', alt='A plate of nigiri at Ginza Sushimasa',
+  body='Sushi again, but a short one. A basement room on the back side of the Kabuki-za theatre, so the street outside is quiet even at noon. The lunch is a short kaiseki: a few cooked dishes first, then a small round of nigiri, then dessert.',
+  size='Iro course: 5 small dishes and 7 pieces of nigiri, &yen;9,900. Yui course: 8 dishes and 9 pieces, &yen;13,200. If you only want nigiri, the Ajisai lunch is 7 pieces with a small bowl of chirashi, &yen;4,950.',
+  hours='Monday lunch 11:30&ndash;14:30. Closed Wednesdays.', book='Booking online or by phone. I book it.',
+  q='Ginza Sushimasa Kabukiza', links=[('Lunch menu (official)','https://www.ginza-sushimasa.com/lunch/')]),
+ dict(n=2, after='G or F', name='Tempura Kondo', where='Ginza 5-chome, 9th floor &middot; tempura', walk='About 10 min on foot',
+  img='img/lunch/kondo.jpg', alt='Tempura at Kondo',
+  body='Two Michelin stars, on the ninth floor of a narrow building with almost no sign at street level. You sit at the counter and each piece is fried in front of you and put on your plate one at a time. Vegetables are the speciality here, not just seafood.',
+  size='Sumire lunch: 9 pieces (2 prawn, 3 fish, 4 vegetable) with rice, pickles, red miso soup and fruit, &yen;13,200. The next size up is 11 pieces, &yen;16,500. Nothing bigger at lunch.',
+  hours='Monday lunch in two seatings, 12:00 or 13:30. Closed Sundays.', book='Booking by phone or online. I book the 12:00 seating.',
+  q='Tempura Kondo Ginza', links=[('Lunch menu','https://hitosara.com/0006054186/lunch.html'),('Restaurant page','https://restaurant.ikyu.com/107810')]),
+ dict(n=3, after='G or F', name='Ginza Uchiyama', where='Ginza 2-chome, basement &middot; seasonal Japanese', walk='About 20 min on foot, 7 by taxi',
+  img='img/lunch/uchiyama.jpg', alt='The sea-bream rice set at Uchiyama',
+  body='A basement room on a side street at the quiet end of Ginza, booking only, 25 seats with 9 at the counter and two private rooms. The house dish is sea bream over rice with hot tea poured on at the end. The lunch is small plates, one after another, and ends with that.',
+  size='Lunch course: 7 dishes ending with the sea-bream rice, &yen;5,500 with tax and service. An 8-dish version with better ingredients is a little more.',
+  hours='Monday lunch 11:30&ndash;14:30. Closed on public holidays only (the 5th is not one).', book='Booking online. I book it.',
+  q='Ginza Uchiyama', links=[('Lunch course','https://restaurant.ikyu.com/114634/plan11547172'),('Restaurant page','https://restaurant.ikyu.com/114634/')]),
+ dict(n=4, after='G or F', name='Nihonbashi Yukari', where='Nihonbashi, 3 min from Tokyo Station &middot; kappo', walk='About 10 min by taxi',
+  img='img/lunch/yukari.jpg', alt='A seasonal plate at Yukari',
+  body='A family restaurant since 1935, now run by the third generation, Kimio Nonaga, who won the Iron Chef title in 2002. Old-style Tokyo cooking, plainly presented. There are private rooms in the basement with sunken tables, so you can have the room to yourselves.',
+  size='Lunch is a set tray, the Yukari gozen, about &yen;4,000, booked the day before. Courses above that on request. All of it is modest in size.',
+  hours='Monday lunch 11:30&ndash;14:00, last order 13:30. Closed Sundays and holidays.', book='Phone booking. I call and book a private room.',
+  q='Nihonbashi Yukari', links=[('Menu','https://r.gnavi.co.jp/g322600/menu1/'),('Official site','http://nihonbashi-yukari.com/')]),
+ dict(n=5, after='G or F', name='Chikuyotei, main house', where='Higashi-Ginza, Kobikicho &middot; eel and Japanese', walk='About 15 min on foot, 5 by taxi',
   img='img/lunch/chikuyotei.jpg', alt='Grilled eel at Chikuyotei',
   body='An eel house from the 1860s, still in a wooden building with a small garden, a few streets behind the Kabuki-za. The tatami rooms are booked as private rooms for two or more and serve a set course; the grilled eel comes in the middle of it, not as a giant bowl.',
   size='Lunch course in a private tatami room: 7 to 8 small dishes with the eel as the main, &yen;10,230 plus 10% service. If you would rather sit at a table, the eel bowl is &yen;3,630.',
@@ -399,10 +420,10 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 </div>
 </header>
 <div class="wrap">
-<div class="sechead"><span class="n">1</span><div><b>Monday, October 5 &mdash; lunch at noon</b> <span>Pick one. All six are open for lunch on Monday the 5th and take bookings. Each one is the quiet kind, a basement, an upper floor or a back lane, and each lunch is a short course, nowhere near 25 pieces. Five are in or next to Ginza, one is across town.</span></div></div>
+<div class="sechead"><span class="n">1</span><div><b>Monday, October 5 &mdash; lunch at noon</b> <span>Pick one. All five are open for lunch on Monday the 5th and take bookings. Each one is the quiet kind, a basement, an upper floor or a back lane, and each lunch is a short course, nowhere near 25 pieces. All five are in or next to Ginza.</span></div></div>
 <p class="lnote">The smallest option is written on each card. Prices are per person and were checked on each restaurant&rsquo;s own page on September 27. Travel times are from your hotel.</p>
 <div class="lunch">{''.join(lunch_card(c) for c in LUNCH)}</div>
-<div class="sechead"><span class="n">2</span><div><b>Monday, October 5 &mdash; the afternoon</b> <span>The afternoon follows the lunch, on foot, so nobody crosses the city twice. Lunch 1, 2, 3, 4 or 6 goes with course G in Ginza; lunch 5 goes with course H in Kagurazaka. You will have been awake since 4:15, so both end by five and the evening stays empty.</span></div></div>
+<div class="sechead"><span class="n">2</span><div><b>Monday, October 5 &mdash; the afternoon</b> <span>Either afternoon goes with any lunch. Course G stays in Ginza on foot; course F is one direct train to Kappabashi, the kitchen street, and the old temple beside it. Both are shopping afternoons, one polished and one rough. You will have been awake since 4:15, so both end by five and the evening stays empty.</span></div></div>
 <div class="menu two">{''.join(menu(c) for c in DAY1)}</div>
 {''.join(detail(c) for c in DAY1)}
 
@@ -471,7 +492,7 @@ lunch_page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><met
 @media(max-width:560px){{.lhead{{padding:30px 0 4px}} .lhead p{{font-size:16px}}}}</style></head><body>
 <header class="wrap lhead"><p class="kicker">Tokyo &middot; Monday, October 5 &middot; 12:00</p>
 <h1>Lunch on the 5th, <span class="nb">a smaller one.</span></h1>
-<p>You said the sushi on the 20th was too much food. Here are six quieter places: a basement, an upper floor, a back lane, a wooden house. Each lunch is a short course, and at each one you can stop where you like. All six are open for lunch on Monday the 5th and take bookings. Five are in or next to Ginza, one is in Kagurazaka. Pick one and I will book it for 12:00.</p>
+<p>You said the sushi on the 20th was too much food. Here are five quieter places: a basement, an upper floor, a back lane, a wooden house. Each lunch is a short course, and at each one you can stop where you like. All five are open for lunch on Monday the 5th and take bookings. All five are in or next to Ginza. Pick one and I will book it for 12:00.</p>
 <ul class="facts"><li><b>Date</b> Monday, October 5</li><li><b>Time</b> 12:00</li><li><b>Distance</b> 5&ndash;20 minutes from your hotel, on foot or by taxi</li></ul>
 </header>
 <div class="wrap">

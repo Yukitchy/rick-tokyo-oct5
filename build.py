@@ -362,7 +362,7 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
 </header>
 <div class="wrap">
 <div class="sechead"><span class="n">1</span><div><b>Monday, October 5 &mdash; lunch at noon</b> <span>Pick one. All six are open for lunch on Monday the 5th and take bookings. Each one is the quiet kind, a basement, an upper floor or a back lane, and each lunch is a short course, nowhere near 25 pieces. Five are in or next to Ginza, one is across town.</span></div></div>
-<p class="lnote">You said the sushi on the 20th was too much food. Each place below lets you decide how much arrives, and the smallest option is written on each card. Numbers 2 and 4 are in the same brick arches under the train line as the sushi place; the other three are a few minutes away on foot. Prices are per person and were checked on each restaurant&rsquo;s own page on September 25.</p>
+<p class="lnote">The smallest option is written on each card. Prices are per person and were checked on each restaurant&rsquo;s own page on September 27. Travel times are from your hotel.</p>
 <div class="lunch">{''.join(lunch_card(c) for c in LUNCH)}</div>
 <div class="sechead"><span class="n">2</span><div><b>Monday, October 5 &mdash; the afternoon</b> <span>Pick one. You will have been awake since 4:15, so every course below ends by six and the evening stays empty.</span></div></div>
 <div class="menu">{''.join(menu(c) for c in DAY1)}</div>
@@ -436,11 +436,11 @@ lunch_page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><met
 <header class="wrap lhead"><p class="kicker">Tokyo &middot; Monday, October 5 &middot; 12:00</p>
 <h1>Lunch on the 5th, <span class="nb">a smaller one.</span></h1>
 <p>You said the sushi on the 20th was too much food. Here are six quieter places: a basement, an upper floor, a back lane, a wooden house. Each lunch is a short course, and at each one you can stop where you like. All six are open for lunch on Monday the 5th and take bookings. Five are in or next to Ginza, one is in Kagurazaka. Pick one and I will book it for 12:00.</p>
-<ul class="facts"><li><b>Date</b> Monday, October 5</li><li><b>Time</b> 12:00</li><li><b>Distance</b> 3&ndash;10 minutes on foot from your hotel</li></ul>
+<ul class="facts"><li><b>Date</b> Monday, October 5</li><li><b>Time</b> 12:00</li><li><b>Distance</b> 5&ndash;20 minutes from your hotel, on foot or by taxi</li></ul>
 </header>
 <div class="wrap">
-<div class="sechead"><div><b>Five places, pick one</b> <span>The smallest option is written on each card. Prices are per person and were checked on each restaurant&rsquo;s own page on September 25.</span></div></div>
-<p class="lnote">Numbers 2 and 4 are in the same brick arches under the train line as the sushi place on the 20th; the other three are a few minutes away on foot.</p>
+<div class="sechead"><div><b>Six places, pick one</b> <span>The smallest option is written on each card. Prices are per person and were checked on each restaurant&rsquo;s own page on September 27.</span></div></div>
+<p class="lnote">Travel times on each card are from your hotel. Numbers 1, 2, 3 and 6 are in Ginza, number 4 is by Tokyo Station, number 5 is a taxi ride across town.</p>
 <div class="lunch">{''.join(lunch_card(c) for c in LUNCH)}</div>
 </div>
 <footer class="wrap"><p>Reply to Yuuki with the number you like. Menus and prices can change a little before the day; I confirm them when I book.</p>

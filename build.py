@@ -439,7 +439,7 @@ footer.wrap{{padding:26px 20px 60px;font-size:13px;color:var(--mute);border-top:
    requestAnimationFrame(function(){{d.classList.add('open');point(id)}});
    b.setAttribute('aria-expanded','true')}}
  window.addEventListener('resize',function(){{var o=document.querySelector('.mcard[aria-expanded=true]');if(o)point(o.dataset.course)}});
- var want=(location.hash.match(/^#detail-([A-F])$/)||[])[1]||(location.search.match(/[?&]open=([A-F])/)||[])[1];
+ var want=(location.hash.match(/^#detail-([A-H])$/)||[])[1]||(location.search.match(/[?&]open=([A-H])/)||[])[1];
  if(want){{open_(want);setTimeout(function(){{document.getElementById('detail-'+want).scrollIntoView()}},80)}}
  cards.forEach(function(b){{
   b.addEventListener('click',function(){{

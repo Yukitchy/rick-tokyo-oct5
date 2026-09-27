@@ -188,7 +188,7 @@ LUNCH = [
   body='The one that is not in Ginza. Kagurazaka is a hill of stone-paved lanes that used to be a geisha district, and this restaurant sits in one of the lanes off the main slope. Five private rooms, 30 seats in all. The meal is a tray of small seasonal things with thin hand-cut udon noodles as the main dish.',
   size='San-no-zen lunch tray: an appetiser plate, sashimi, a seasonal dish, tempura, udon and a sweet, &yen;5,000 with tax and service. One tray each, nothing else arrives.',
   hours='Monday lunch 11:30&ndash;14:30, last order 14:00. Closed Sundays.', book='Booking online. I book a private room.',
-  q='Kagurazaka Kurobatei', links=[('Lunch menu','https://www.hotpepper.jp/strJ000034564/lunch/'),('Restaurant page','https://restaurant.ikyu.com/101020')]),
+  q='Kagurazaka Kurobatei', links=[('Lunch menu','https://r.gnavi.co.jp/4byzp4200000/lunch/'),('Restaurant page','https://restaurant.ikyu.com/101020')]),
  dict(n=6, after='G', name='Chikuyotei, main house', where='Higashi-Ginza, Kobikicho &middot; eel and Japanese', walk='About 15 min on foot, 5 by taxi',
   img='img/lunch/chikuyotei.jpg', alt='Grilled eel at Chikuyotei',
   body='An eel house from the 1860s, still in a wooden building with a small garden, a few streets behind the Kabuki-za. The tatami rooms are booked as private rooms for two or more and serve a set course; the grilled eel comes in the middle of it, not as a giant bowl.',

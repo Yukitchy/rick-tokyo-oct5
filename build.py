@@ -164,44 +164,44 @@ LUNCH = [
   body='Sushi again, but a short one. A basement room on the back side of the Kabuki-za theatre, so the street outside is quiet even at noon. The lunch is a short kaiseki: a few cooked dishes first, then a small round of nigiri, then dessert.',
   size='Iro course: 5 small dishes and 7 pieces of nigiri, &yen;9,900. Yui course: 8 dishes and 9 pieces, &yen;13,200. If you only want nigiri, the Ajisai lunch is 7 pieces with a small bowl of chirashi, &yen;4,950.',
   hours='Monday lunch 11:30&ndash;14:30. Closed Wednesdays.', book='Booking online or by phone. I book it.',
-  q='Ginza Sushimasa Kabukiza', link=('Lunch menu (official)','https://www.ginza-sushimasa.com/lunch/')),
+  q='Ginza Sushimasa Kabukiza', links=[('Lunch menu (official)','https://www.ginza-sushimasa.com/lunch/')]),
  dict(n=2, after='G', name='Tempura Kondo', where='Ginza 5-chome, 9th floor &middot; tempura', walk='About 10 min on foot',
-  img='img/lunch/kondo.jpg', alt='The counter at Tempura Kondo',
+  img='img/lunch/kondo.jpg', alt='Tempura at Kondo',
   body='Two Michelin stars, on the ninth floor of a narrow building with almost no sign at street level. You sit at the counter and each piece is fried in front of you and put on your plate one at a time. Vegetables are the speciality here, not just seafood.',
   size='Sumire lunch: 9 pieces (2 prawn, 3 fish, 4 vegetable) with rice, pickles, red miso soup and fruit, &yen;13,200. The next size up is 11 pieces, &yen;16,500. Nothing bigger at lunch.',
   hours='Monday lunch in two seatings, 12:00 or 13:30. Closed Sundays.', book='Booking by phone or online. I book the 12:00 seating.',
-  q='Tempura Kondo Ginza', link=('Restaurant page','https://restaurant.ikyu.com/107810')),
+  q='Tempura Kondo Ginza', links=[('Lunch menu','https://hitosara.com/0006054186/lunch.html'),('Restaurant page','https://restaurant.ikyu.com/107810')]),
  dict(n=3, after='G', name='Ginza Uchiyama', where='Ginza 2-chome, basement &middot; seasonal Japanese', walk='About 20 min on foot, 7 by taxi',
-  img='img/lunch/uchiyama.jpg', alt='The counter at Ginza Uchiyama',
+  img='img/lunch/uchiyama.jpg', alt='The sea-bream rice set at Uchiyama',
   body='A basement room on a side street at the quiet end of Ginza, booking only, 25 seats with 9 at the counter and two private rooms. The house dish is sea bream over rice with hot tea poured on at the end. The lunch is small plates, one after another, and ends with that.',
   size='Lunch course: 7 dishes ending with the sea-bream rice, &yen;5,500 with tax and service. An 8-dish version with better ingredients is a little more.',
   hours='Monday lunch 11:30&ndash;14:30. Closed on public holidays only (the 5th is not one).', book='Booking online. I book it.',
-  q='Ginza Uchiyama', link=('Restaurant page','https://restaurant.ikyu.com/114634/')),
+  q='Ginza Uchiyama', links=[('Lunch course','https://restaurant.ikyu.com/114634/plan11547172'),('Restaurant page','https://restaurant.ikyu.com/114634/')]),
  dict(n=4, after='G', name='Nihonbashi Yukari', where='Nihonbashi, 3 min from Tokyo Station &middot; kappo', walk='About 10 min by taxi',
-  img='img/lunch/yukari.jpg', alt='A seasonal dish at Nihonbashi Yukari',
+  img='img/lunch/yukari.jpg', alt='A seasonal plate at Yukari',
   body='A family restaurant since 1935, now run by the third generation, Kimio Nonaga, who won the Iron Chef title in 2002. Old-style Tokyo cooking, plainly presented. There are private rooms in the basement with sunken tables, so you can have the room to yourselves.',
   size='Lunch is a set tray, the Yukari gozen, about &yen;4,000, booked the day before. Courses above that on request. All of it is modest in size.',
   hours='Monday lunch 11:30&ndash;14:00, last order 13:30. Closed Sundays and holidays.', book='Phone booking. I call and book a private room.',
-  q='Nihonbashi Yukari', link=('Official site','http://nihonbashi-yukari.com/')),
+  q='Nihonbashi Yukari', links=[('Menu','https://r.gnavi.co.jp/g322600/menu1/'),('Official site','http://nihonbashi-yukari.com/')]),
  dict(n=5, after='H', name='Kagurazaka Kurobatei', where='Kagurazaka, in the old geisha quarter &middot; seasonal Japanese and udon', walk='About 20 min by taxi',
-  img='img/lunch/kurobatei.jpg', alt='A private room at Kurobatei',
+  img='img/lunch/kurobatei.jpg', alt='The lunch tray at Kurobatei',
   body='The one that is not in Ginza. Kagurazaka is a hill of stone-paved lanes that used to be a geisha district, and this restaurant sits in one of the lanes off the main slope. Five private rooms, 30 seats in all. The meal is a tray of small seasonal things with thin hand-cut udon noodles as the main dish.',
   size='San-no-zen lunch tray: an appetiser plate, sashimi, a seasonal dish, tempura, udon and a sweet, &yen;5,000 with tax and service. One tray each, nothing else arrives.',
   hours='Monday lunch 11:30&ndash;14:30, last order 14:00. Closed Sundays.', book='Booking online. I book a private room.',
-  q='Kagurazaka Kurobatei', link=('Restaurant page','https://restaurant.ikyu.com/101020')),
+  q='Kagurazaka Kurobatei', links=[('Lunch menu','https://www.hotpepper.jp/strJ000034564/lunch/'),('Restaurant page','https://restaurant.ikyu.com/101020')]),
  dict(n=6, after='G', name='Chikuyotei, main house', where='Higashi-Ginza, Kobikicho &middot; eel and Japanese', walk='About 15 min on foot, 5 by taxi',
-  img='img/lunch/chikuyotei.jpg', alt='The inner garden at Chikuyotei',
+  img='img/lunch/chikuyotei.jpg', alt='Grilled eel at Chikuyotei',
   body='An eel house from the 1860s, still in a wooden building with a small garden, a few streets behind the Kabuki-za. The tatami rooms are booked as private rooms for two or more and serve a set course; the grilled eel comes in the middle of it, not as a giant bowl.',
   size='Lunch course in a private tatami room: 7 to 8 small dishes with the eel as the main, &yen;10,230 plus 10% service. If you would rather sit at a table, the eel bowl is &yen;3,630.',
   hours='Monday lunch 11:30&ndash;15:30, last order 14:30. Closed Sundays and holidays.', book='Phone booking for the room. I call and book it.',
-  q='Chikuyotei Honten Ginza', link=('Official site','http://chikuyoutei.co.jp/')),
+  q='Chikuyotei Honten Ginza', links=[('Menu','https://r.gnavi.co.jp/g201100/menu1/'),('Official site','http://chikuyoutei.co.jp/')]),
 ]
 def lunch_card(c):
     return f'''<article class="lcard"><img src="{c['img']}" alt="{html.escape(c['alt'])}" loading="lazy">
 <div class="eb"><em>{c['n']} &middot; {c['where']}</em><strong>{c['name']}</strong><span>{c['body']}</span>
 <p class="lsize">{c['size']}</p>
 <p class="lmeta">{c['walk']}. {c['hours']} {c['book']} <b>Afternoon: course {c['after']}.</b></p>
-<p class="llinks"><a href="{gm(c['q'])}" target="_blank" rel="noopener">Map</a> <a href="{c['link'][1]}" target="_blank" rel="noopener">{c['link'][0]}</a></p></div></article>'''
+<p class="llinks"><a href="{gm(c['q'])}" target="_blank" rel="noopener">Map</a> {' '.join(f'<a href="{u}" target="_blank" rel="noopener">{t}</a>' for t,u in c['links'])}</p></div></article>'''
 
 def menu(c):
     x = PH[c['id']]['card']

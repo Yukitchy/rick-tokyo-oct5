@@ -222,9 +222,9 @@
     "lic": "CC BY-SA 4.0"
    },
    {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ginza_4-Chome_Crossing_2020-04-19.jpg/960px-Ginza_4-Chome_Crossing_2020-04-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "Ginza 4-Chome Crossing 2020-04-19.jpg",
-    "lic": "CC0"
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kaminarimon%2C_Sensoji_%282521999969%29.jpg/960px-Kaminarimon%2C_Sensoji_%282521999969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "Kaminarimon, Sensoji (2521999969).jpg",
+    "lic": "CC BY-SA 2.0"
    }
   ],
   "food": [
@@ -239,9 +239,101 @@
     "lic": "CC BY 2.0"
    },
    {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Mitsukoshi_Ginza_new-building.JPG/960px-Mitsukoshi_Ginza_new-building.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "title": "Mitsukoshi Ginza new-building.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Melon_bread_%28with_chocolate_chips%29_2023-11-05.jpg/960px-Melon_bread_%28with_chocolate_chips%29_2023-11-05.jpg",
+    "title": "Melon bread (with chocolate chips) 2023-11-05.jpg",
+    "lic": "CC0"
+   }
+  ]
+ },
+ "G": {
+  "card": {
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ginza_Itoya_%2834207621235%29.jpg/960px-Ginza_Itoya_%2834207621235%29.jpg",
+   "title": "Ginza Itoya (34207621235).jpg",
+   "lic": "CC BY 2.0"
+  },
+  "detail": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Saturday_in_Ginza.jpg/960px-Saturday_in_Ginza.jpg",
+    "title": "Saturday in Ginza.jpg",
+    "lic": "CC BY 2.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/GINZA_SIX_Roof_Garden_201806.jpg/960px-GINZA_SIX_Roof_Garden_201806.jpg",
+    "title": "GINZA SIX Roof Garden 201806.jpg",
+    "lic": "CC BY-SA 4.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Ginza_Six_TSUTAYA_BOOKS_201706.jpg/960px-Ginza_Six_TSUTAYA_BOOKS_201706.jpg",
+    "title": "Ginza Six TSUTAYA BOOKS 201706.jpg",
+    "lic": "CC BY 2.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Hamarikyu_garden_110925_1.jpg/960px-Hamarikyu_garden_110925_1.jpg",
+    "title": "Hamarikyu garden 110925 1.jpg",
+    "lic": "CC0"
+   }
+  ],
+  "food": [
+   {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tokyo_Parfait_-_lots_of_matcha_with_adzuki_hidden_on_the_bottom._%2814226988754%29.jpg",
+    "title": "Tokyo Parfait - lots of matcha with adzuki hidden on the bottom. (14226988754).jpg",
+    "lic": "CC BY 2.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Ginza-Kimuraya-Sakura-Anpan---2023-11-28_001.jpg/960px-Ginza-Kimuraya-Sakura-Anpan---2023-11-28_001.jpg",
+    "title": "Ginza-Kimuraya-Sakura-Anpan---2023-11-28 001.jpg",
+    "lic": "CC BY 4.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E9%8A%80%E5%BA%A7_%E5%A4%A9%E4%B8%80_2010_%284673838729%29.jpg/960px-%E9%8A%80%E5%BA%A7_%E5%A4%A9%E4%B8%80_2010_%284673838729%29.jpg",
+    "title": "銀座 天一 2010 (4673838729).jpg",
+    "lic": "CC BY 2.0"
+   }
+  ]
+ },
+ "H": {
+  "card": {
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Bishamonten_%28Zenkokuji%29_Kagurazaka.jpg/960px-Bishamonten_%28Zenkokuji%29_Kagurazaka.jpg",
+   "title": "Bishamonten (Zenkokuji) Kagurazaka.jpg",
+   "lic": "CC BY 2.0"
+  },
+  "detail": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kagurazaka_path_2009.JPG/960px-Kagurazaka_path_2009.JPG",
+    "title": "Kagurazaka path 2009.JPG",
     "lic": "CC BY-SA 3.0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Evening_view_-_Kagurazaka%2C_Tokyo_-_DSC04447.jpg/960px-Evening_view_-_Kagurazaka%2C_Tokyo_-_DSC04447.jpg",
+    "title": "Evening view - Kagurazaka, Tokyo - DSC04447.jpg",
+    "lic": "CC0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Akagi-jinja_-_Tokyo%2C_Japan_-_DSC05055.jpg/960px-Akagi-jinja_-_Tokyo%2C_Japan_-_DSC05055.jpg",
+    "title": "Akagi-jinja - Tokyo, Japan - DSC05055.jpg",
+    "lic": "CC0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Kagurazaka-1.jpg/960px-Kagurazaka-1.jpg",
+    "title": "Kagurazaka-1.jpg",
+    "lic": "CC BY-SA 4.0"
+   }
+  ],
+  "food": [
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Wagashi_and_matcha_by_Noriko_Jazayeri_2025-05-18.jpg/960px-Wagashi_and_matcha_by_Noriko_Jazayeri_2025-05-18.jpg",
+    "title": "Wagashi and matcha by Noriko Jazayeri 2025-05-18.jpg",
+    "lic": "CC0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Akagi-jinja_-_Tokyo%2C_Japan_-_DSC05061.jpg/960px-Akagi-jinja_-_Tokyo%2C_Japan_-_DSC05061.jpg",
+    "title": "Akagi-jinja - Tokyo, Japan - DSC05061.jpg",
+    "lic": "CC0"
+   },
+   {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tokyo_%2853442436492%29.jpg/960px-Tokyo_%2853442436492%29.jpg",
+    "title": "Tokyo (53442436492).jpg",
+    "lic": "CC BY 2.0"
    }
   ]
  }
